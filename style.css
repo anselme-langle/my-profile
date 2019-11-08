@@ -1,0 +1,132 @@
+body{
+	background-color: rgb(245, 245, 245);
+	color:rgb(50, 50, 50);
+	font-family: Helvetica
+	font-size: 17px;
+}
+h1, h2 {
+	font-family: "Times New Roman", Times, serif;
+}
+h1{
+	color: black;
+	font-size: 32px;
+}
+h2{
+	color: #7AB991;
+	font-size: 20px;
+	font-weight: bold;
+}
+.paragraph-box {
+	transform: translate(0,-50%);
+}
+a{
+	text-decoration: none;
+}
+
+
+.container {
+	padding: 0px;
+	margin: 0 auto;
+	max-width: 700px;
+}
+@media (max-width: 1281px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 1024px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 780px) {
+	.container {
+		width: 450px;
+	}
+}
+@media (max-width: 590px) {
+	.container {
+		width: 350px;
+	}
+}
+@media (max-width: 480px) {
+	.container {
+		width: 300px;
+	}
+}
+@media (max-width: 320px) {
+	.container {
+		width: 250px;
+	}
+}
+.card-white{
+	text-align: center;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 15px 55px rgba(0, 0, 0,.1);
+	padding: 30px;
+	margin: 20px 0;
+}
+.box-align{
+	text-align: center;
+	background: white;
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #7AB991;
+	padding: 30px;
+	margin: 15px 10px;
+	display: inline-block;
+	height: 30px;
+	width: 150px;
+	vertical-align: middle;
+}
+.btn-green{
+	background-color: #7AB991;
+	color: black;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+.btn-green:hover{
+	background-color: #2E0D36;
+	color: white;
+}
+.img-circle{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.inline-block{
+	display: inline-block;
+	width: 250px;
+	height: 150px;
+	margin-bottom: 2px;
+}
+.list-icon-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-icon-inline li{
+	display: inline;
+	padding: 50px;
+}
+.list-icon-inline i{
+	 font-size: 50px;
+	 color: rgb(230, 230, 230);
+}
+.list-vertical{
+	display: inline-block;
+	list-style: none;
+}
+.logo-rectangle {
+	width: 100px;
+	height: 70px;
+	object-fit: contain;
+}
+.fab:hover{
+	 color: #7AB991;
+	 display: inline-block;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
